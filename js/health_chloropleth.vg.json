@@ -38,7 +38,7 @@
           }
         },
         {
-          "calculate": "datum['2021'] *1",  
+          "calculate": "datum['2021']",  
           "as": "Expenditure as a % of GDP"
         }
       ],
