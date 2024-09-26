@@ -8,6 +8,7 @@
   },
   "projection": {"type": "equalEarth"},
   "layer": [
+    
     {
       "transform": [
         {
@@ -18,6 +19,12 @@
       "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
       "encoding": {"tooltip": {"field": "note"}}
     },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/aros0033/3179Week9Homework/refs/heads/main/js/Oceans.topojson",
+        "format": {"type": "topojson", "feature": "oceans"}
+      },
+      "mark": {"type": "geoshape", "fill": "skyblue"}},
     {
       "data": {
         "url": "https://raw.githubusercontent.com/aros0033/3179Week9Homework/refs/heads/main/js/WorldMapWithGraticules.topojson",
